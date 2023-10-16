@@ -33,6 +33,7 @@ import { SettingsButton } from "./Settings";
 import { InfoLabel } from "./Info";
 import { SOL_MINT, WRAPPED_SOL_MINT } from "../utils/pubkeys";
 
+//UI for swap
 const useStyles = makeStyles((theme) => ({
   card: {
     width: theme.spacing(50),
@@ -98,7 +99,7 @@ const useStyles = makeStyles((theme) => ({
     cursor: "pointer",
     marginBottom: theme.spacing(1),
   },
-}));
+}));   //styled-components
 
 export default function SwapCard({
   containerStyle,
